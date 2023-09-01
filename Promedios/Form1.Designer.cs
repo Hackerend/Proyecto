@@ -111,7 +111,7 @@ namespace Promedios
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(147, 224);
+            this.btnLimpiar.Location = new System.Drawing.Point(151, 224);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(105, 39);
             this.btnLimpiar.TabIndex = 15;
