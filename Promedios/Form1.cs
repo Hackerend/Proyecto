@@ -60,5 +60,12 @@ namespace Promedios
         {
 
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtEstado.Text = "";
+            txtPromedio.Text = "";
+            txtFalta.Text = "";
+        }
     }
 }
