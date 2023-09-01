@@ -37,7 +37,6 @@ namespace Promedios
             this.btnSalir = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtPromedio = new System.Windows.Forms.TextBox();
-            this.btnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtEstado
@@ -109,22 +108,11 @@ namespace Promedios
             this.txtPromedio.Size = new System.Drawing.Size(100, 22);
             this.txtPromedio.TabIndex = 13;
             // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Location = new System.Drawing.Point(151, 224);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(105, 39);
-            this.btnLimpiar.TabIndex = 15;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 330);
-            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPromedio);
             this.Controls.Add(this.btnSalir);
@@ -150,7 +138,6 @@ namespace Promedios
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtPromedio;
-        private System.Windows.Forms.Button btnLimpiar;
     }
 }
 

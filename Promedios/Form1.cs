@@ -24,7 +24,7 @@ namespace Promedios
 
         private void btnEjecutar_Click(object sender, EventArgs e)
         {
-            int faltas,promedio,total;
+            int faltas,promedio;
             promedio = int.Parse(txtPromedio.Text);
             faltas = int.Parse(txtFalta.Text);
             if (promedio > 0 && faltas >= 0)
@@ -60,5 +60,6 @@ namespace Promedios
         {
 
         }
+
     }
 }
